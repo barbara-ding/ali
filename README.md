@@ -9,5 +9,11 @@ git init
 git status
 
 # 检查目录或者某个文件与之前的差异
-git diff <file>
+git diff [file]
+
+# 添加变更到数据库
+git add [文件路径]
+
+# 提交一次变更
+git commit [-m "提交信息"]
 ```
