@@ -1,0 +1,114 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-image: url(background.png);
+  background-color: #000000;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.form-signin {
+  width: 550px;
+  height: 570px;
+  padding: 15px;
+  background-image: url(./外框.png);
+  background-size: 100% 100%;
+  margin: 0 auto;
+}
+
+.form-signin-inner{
+  width: 330px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+/* .form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+} */
+
+.form-signin .form-signin-inner .btn-primary:hover {
+  color: #fff;
+  background-color: #a33eea;
+  border-color: #a33eea;
+}
+
+.ali{
+  color: white;
+  font-family: "时尚中黑简体";
+}
+
+.checkbox .remember-me{
+  color: white;
+  font-family:"Pristina";
+  margin-top:20px;
+}
+
+span.quit{
+  font-family: "字魂95号-手刻宋";
+}
+
+.form-floating-2{
+  margin-top: 10px;
+}
+.form-floating{
+  display: flex;
+  align-items: center;
+  border: 1px solid #fff;
+}
+
+.form-floating .form-control{
+  border: 0;
+}
+.form-floating .form-control::placeholder {
+  color: #fff;
+}
+.form-floating .form-control:focus {
+  background-color: unset;
+  outline: 0;
+  box-shadow:unset;
+}
+.form-floating>.form-control:focus, .form-floating>.form-control:not(:placeholder-shown) {
+  padding-top: .75rem;
+  padding-bottom: 1rem;
+}
+.form-floating .form-floating-icon{
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+}
+.form-floating .form-floating-icon span {
+  width: 1px;
+  height: 15px;
+  background-color: #fff;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+span.writer{
+  color: #fff;
+  font-family: "Pristina";
+  margin-right:5px;
+}
